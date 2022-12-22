@@ -4,6 +4,7 @@ This organization is for the use of Albany CTE Game Design and Implementation st
 
 All repositories, discussions and other content must comply with the Code of Student Conduct and Acceptable Use of Computer equipment.
 
+Questions or issues with access, please contact Ms Patricia Gallant 
 
 <!--
 
