@@ -23,9 +23,6 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Additional context**
-Add any other context about the problem here.
-
 **What version were you testing (provide branch/version info and remove the ones that don't apply):**
 - Unity Editor - Branch name: ________ PR#: 
 - WebGL build - v##.##.##
@@ -44,3 +41,5 @@ Add any other context about the problem here.
  - Browser [e.g. stock browser, safari]
  - Browser Version [e.g. 22]
 
+**Additional context**
+Add any other context about the problem here.
