@@ -1,16 +1,16 @@
-name: Task Item
-description: Add an artist or programmer's task to the project.
+name: "Task Item"
+description: "Add an artist or programmer's task to the project."
 title: "[Task]: "
 
 body:
   - type: markdown
     attributes:
-      value: Provide the task details below
+      value: "Provide the task details below."
   - type: input
     id: description
     attributes:
-      label: Task Description
-      description: Provide a brief (50 char max) description of the task.
+      label: "Task Description"
+      description: "Provide a brief (50 char max) description of the task."
       placeholder: ex. Code basic player movement
     validations:
       required: false
@@ -18,7 +18,7 @@ body:
   - type: dropdown
     id: taskType
     attributes:
-      label: Task type
+      label: "Task type"
       options:
         - Design
         - Programming
@@ -30,24 +30,24 @@ body:
   - type: dropdown
     id: taskEffort
     attributes:
-      label: What is the estimated effort for this task?
+      label: "What is the estimated effort for this task?"
       options:
-- 0 Undefined
-- 1 Low. less than 1 class period
-- 2 Med. One to two class periods
-- 3 High. Three to four class periods
-- 4 Huge. more than four class periods will need further breakdown
+- "0 Undefined"
+- "1 Low. less than 1 class period"
+- "2 Med. One to two class periods"
+- "3 High. Three to four class periods"
+- "4 Huge. more than four class periods will need further breakdown"
         default: 0
     - type: dropdown
       id: taskPriority
       attributes:
-        label: What is the priority for this task?
+        label: "What is the priority for this task?"
         options:
-        - 0 Undefined
-        - 1 Must Have
-        - 2 Should Have
-        - 3 Could Have
-        - 4 Wont Have yet
+        - "0 Undefined"
+        - "1 Must Have"
+        - "2 Should Have"
+        - "3 Could Have"
+        - "4 Won't Have yet"
         default: 0
 
         
