@@ -32,11 +32,11 @@ body:
     attributes:
       label: "What is the estimated effort for this task?"
       options:
-        - Unknown
-        - Low
-        - Medium
-        - High
-        - Huge
+      - Unknown
+      - Low
+      - Medium
+      - High
+      - Huge
         default: 0
     - type: dropdown
       id: taskPriority
