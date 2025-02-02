@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: 'bug,verify'
+labels: 'bug,needs-triage'
 assignees: 'mrNunn,pcgallant'
 
 ---
@@ -38,12 +38,6 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. Windows 10, OSX Ventura, Linux Ubuntu]
  - Browser [e.g. chrome, safari, edge]
  - Browser version [e.g. 22]
-
-*Smartphone (please complete the following information id testing on a mobile device - remove if not applicable):*
- - Device: [e.g. iPhone6, Samsung Galaxy]
- - OS: [e.g. iOS8.1, Android 10]
- - Browser [e.g. stock browser, safari]
- - Browser Version [e.g. 22]
 
 **Additional context**
 Add any other context about the problem here.
