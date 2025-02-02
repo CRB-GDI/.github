@@ -1,40 +1,50 @@
 name: Task Item
-description: Add a task to the project.
+description: Add an artist or programmer's task to the project.
 title: "[Task]: "
 
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value: Provide the task details below
   - type: input
-    id: contact
+    id: description
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Task Description
+      description: Provide a brief (50 char max) description of the task.
+      placeholder: ex. Code basic player movement
     validations:
       required: false
 
   - type: dropdown
-    id: version
+    id: type
     attributes:
-      label: Version
+      label: Task type
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Design
+        - Programming
+        - Art
+        - Sound
       default: 0
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: effort
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: What is the estimated effort for this task?
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - 1: Low (less than 1 class period)
+        - 2: Med (1 - 2 class periods)
+        - 3: High (3 - 4 class periods)
+        - 4: Huge (> 4 class periods - needs further breakdown)  
+    - type: dropdown
+      id: priority
+      attributes:
+        label: What is the priority for this task?
+        options:
+        - 1: Must Have
+        - 2: Should Have
+        - 3: Could Have
+        - 4: Won't Have (yet)
+        
 
