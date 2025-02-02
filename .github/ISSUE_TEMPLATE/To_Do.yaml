@@ -32,22 +32,22 @@ body:
     attributes:
       label: "What is the estimated effort for this task?"
       options:
-        - "0 Undefined"
-        - "1 Low. less than 1 class period"
-        - "2 Med. One to two class periods"
-        - "3 High. Three to four class periods"
-        - "4 Huge. more than four class periods will need further breakdown"
+        - Unknown
+        - Low
+        - Medium
+        - High
+        - Huge
         default: 0
     - type: dropdown
       id: taskPriority
       attributes:
         label: "What is the priority for this task?"
         options:
-        - "0 Undefined"
-        - "1 Must Have"
-        - "2 Should Have"
-        - "3 Could Have"
-        - "4 Won't Have yet"
+        - Undefined
+        - Must
+        - Should
+        - Could
+        - Wont
         default: 0
 
         
