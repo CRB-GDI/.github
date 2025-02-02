@@ -19,10 +19,20 @@ body:
     attributes:
       label: "Task type"
       options:
-        - Design
-        - Programming
-        - Art
-        - Sound
+        - "(Design) UI Wireframe"
+        - "(Design) Dialogue Script"
+        - "(Programming) Scene"
+        - "(Programming) Prefab"
+        - "(Programming) Animation Controller"
+        - "(Programming) Script"
+        - "(Art) Button Image"
+        - "(Art) Icon Image"
+        - "(Art) Animation Clips"
+        - "(Art) Character"
+        - "(Art) Environment"
+        - "(Sound) Voice Over"
+        - "(Sound) SFX"
+        - "(Sound) Ambient"
     validations:
       required: true
   - type: dropdown
