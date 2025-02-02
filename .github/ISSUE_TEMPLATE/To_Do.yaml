@@ -16,7 +16,7 @@ body:
       required: false
 
   - type: dropdown
-    id: type
+    id: taskType
     attributes:
       label: Task type
       options:
@@ -28,22 +28,27 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: effort
+    id: taskEffort
     attributes:
       label: What is the estimated effort for this task?
       options:
+        - 0 Undefined
         - 1 Low (less than 1 class period)
         - 2 Med (1 - 2 class periods)
         - 3 High (3 - 4 class periods)
         - 4 Huge (> 4 class periods - needs further breakdown)  
+        default: 0
     - type: dropdown
-      id: priority
+      id: taskPriority
       attributes:
         label: What is the priority for this task?
         options:
+        - 0 Undefined
         - 1 Must Have
         - 2 Should Have
         - 3 Could Have
         - 4 Wont Have (yet)
+        default: 0
+
         
 
