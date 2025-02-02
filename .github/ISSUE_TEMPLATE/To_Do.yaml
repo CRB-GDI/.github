@@ -14,7 +14,6 @@ body:
       placeholder: ex. Code basic player movement
     validations:
       required: true
-
   - type: dropdown
     id: taskType
     attributes:
@@ -48,5 +47,3 @@ body:
         - Should
         - Could
         - Wont
-      validations:
-        required: true
