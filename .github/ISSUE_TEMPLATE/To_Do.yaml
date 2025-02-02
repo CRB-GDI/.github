@@ -33,10 +33,10 @@ body:
       label: What is the estimated effort for this task?
       options:
         - 0 Undefined
-        - 1 Low (less than 1 class period)
-        - 2 Med (1 - 2 class periods)
-        - 3 High (3 - 4 class periods)
-        - 4 Huge (> 4 class periods - needs further breakdown)  
+        - 1 Low less than 1 class period
+        - 2 Med 1 - 2 class periods
+        - 3 High 3 - 4 class periods
+        - 4 Huge more than 4 class periods will need further breakdown
         default: 0
     - type: dropdown
       id: taskPriority
@@ -47,7 +47,7 @@ body:
         - 1 Must Have
         - 2 Should Have
         - 3 Could Have
-        - 4 Wont Have (yet)
+        - 4 Wont Have yet
         default: 0
 
         
