@@ -37,21 +37,19 @@ body:
       - Medium
       - High
       - Huge
-        validations:
-          required: true
-    - type: dropdown
-      id: taskPriority
-      attributes:
-        label: "What is the priority for this task?"
-        options:
+    default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: taskPriority
+    attributes:
+      label: "What is the priority for this task?"
+      options:
         - Undefined (Default)
         - Must
         - Should
         - Could
         - Wont
-        default: 0
-        validations:
-          required: true
-
-        
-
+      default: 0
+      validations:
+        required: true
