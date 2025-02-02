@@ -19,7 +19,6 @@ body:
     id: type
     attributes:
       label: Task type
-      description: What version of our software are you running?
       options:
         - Design
         - Programming
