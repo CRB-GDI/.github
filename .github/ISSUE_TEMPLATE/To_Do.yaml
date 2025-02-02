@@ -24,7 +24,6 @@ body:
         - Programming
         - Art
         - Sound
-    default: 0
     validations:
       required: true
   - type: dropdown
@@ -37,7 +36,6 @@ body:
       - Medium
       - High
       - Huge
-    default: 0
     validations:
       required: true
   - type: dropdown
@@ -50,6 +48,5 @@ body:
         - Should
         - Could
         - Wont
-      default: 0
       validations:
         required: true
