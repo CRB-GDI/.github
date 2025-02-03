@@ -37,6 +37,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: taskPriority
+    attributes:
+      label: "What is the priority for this task?"
+      options:
+        - "0 - Undefined"
+        - "1 - Must Have"
+        - "2 - Should Have"
+        - "3 - Could Have"
+        - "4 - Won't Have"
+  - type: dropdown
     id: taskEffort
     attributes:
       label: "What is the estimated effort for this task?"
@@ -48,13 +58,3 @@ body:
       - "Huge (more than 4 class periods, needs sub-tasks)"
     validations:
       required: true
-  - type: dropdown
-    id: taskPriority
-    attributes:
-      label: "What is the priority for this task?"
-      options:
-        - "0 - Undefined"
-        - "1 - Must Have"
-        - "2 - Should Have"
-        - "3 - Could Have"
-        - "4 - Won't Have"
