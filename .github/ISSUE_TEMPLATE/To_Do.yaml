@@ -20,20 +20,20 @@ body:
     attributes:
       label: "Task type"
       options:
-        - "(Design) UI Wireframe"
-        - "(Design) Dialogue Script"
-        - "(Programming) Scene"
-        - "(Programming) Prefab"
-        - "(Programming) Animation Controller"
-        - "(Programming) Script"
-        - "(Art) Button Image"
-        - "(Art) Icon Image"
-        - "(Art) Animation Clips"
-        - "(Art) Character"
-        - "(Art) Environment"
-        - "(Sound) Voice Over"
-        - "(Sound) SFX"
-        - "(Sound) Ambient"
+        - "Design: UI Wireframe"
+        - "Design: Dialogue Script"
+        - "Programming: Scene"
+        - "Programming: Prefab"
+        - "Programming: Animation Controller"
+        - "Programming: Script"
+        - "Art: Button Image"
+        - "Art: Icon Image"
+        - "Art: Animation"
+        - "Art: Character"
+        - "Art: Environment"
+        - "Sound: Voice Over"
+        - "Sound: SFX"
+        - "Sound: Ambient"
     validations:
       required: true
   - type: dropdown
@@ -53,8 +53,8 @@ body:
     attributes:
       label: "What is the priority for this task?"
       options:
-        - "Undefined"
-        - "1 Must Have"
-        - "2 Should Have"
-        - "3 Could Have"
-        - "4 Won't Have"
+        - "0 - Undefined"
+        - "1 - Must Have"
+        - "2 - Should Have"
+        - "3 - Could Have"
+        - "4 - Won't Have"
