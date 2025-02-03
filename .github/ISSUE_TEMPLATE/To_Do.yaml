@@ -1,6 +1,7 @@
 name: "Task Item"
 description: "Add an artist or programmer's task to the project."
 title: "TO DO: "
+type: Task
 
 body:
   - type: markdown
