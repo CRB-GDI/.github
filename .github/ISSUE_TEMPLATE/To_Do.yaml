@@ -14,8 +14,6 @@ body:
       label: "Additional information"
       description: "If necessary, provide any additional context to explain the scope of this task"
       placeholder: "ex. For MVP we just need walk and jump.  Other player movement will be done later"
-      validations:
-        required: false
             
   - type: dropdown
     id: taskType
