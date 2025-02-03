@@ -1,19 +1,12 @@
 name: "Task Item"
 description: "Add an artist or programmer's task to the project."
-title: "[Task]: "
+title: "TO DO: "
 
 body:
   - type: markdown
     attributes:
       value: "Provide the task details below."
-  - type: input
-    id: description
-    attributes:
-      label: "Task Description"
-      description: "Provide a brief (50 char max) description of the task."
-      placeholder: ex. Code basic player movement
-    validations:
-      required: true
+ 
   - type: dropdown
     id: taskType
     attributes:
