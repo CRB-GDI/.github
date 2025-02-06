@@ -21,5 +21,33 @@ body:
     attributes:
       label: "How to reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior."
-      placeholder: "1. From level 1 encountered the range enemy.  UI health showed 10 \n 2. Range enemy attack made contact with player. \n 3. Health UI still displayed 10."
+      placeholder: "*Example* \n 1. From level 1 encountered the range enemy.  UI health showed 10 \n 2. Range enemy attack made contact with player. \n 3. Health UI still displayed 10."
 #      value: "1. Do this \n 2. Then do that \n 3. Then do the other"
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What did you expect to happen?"
+      description: "Provide a clear and concise description of what you expected to happen."
+      placeholder: "Expected player's health to display as 9 after the hit."
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: "Testing device"
+      description: "What type of device were you using while testing?"
+      options:
+        - "Desktop"
+        - "Laptop"
+        - "Smartphone"
+
+  - type: textarea
+    id: deviceDetails
+    attributes:
+      label: "Please provide mroe detailes about your device"
+      value: "* Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook] \n * OS and version [e.g. Windows 11, iOS 12, Android 15] \n * Browser [ e.g. Chrome, Edge, etc] * Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]
+
+  - type: markdown
+    id: screenshots
+    attributes
+      value: "If applicable, attach screenshots or video clips below to help explain your problem."
