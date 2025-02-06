@@ -48,7 +48,7 @@ body:
       description: "Having more details abour your device will help us troubleshoot."
       value: "Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook]:  \n\n OS and version [e.g. Windows 11, iOS 12, Android 15]:  \n\n Browser [e.g. Chrome, Edge, etc] \n\n Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]: \n\n"
 
-  - type: markdown
+  - type: textarea
     id: screenshots
     attributes:
       value: "If applicable, attach screenshots or video clips below to help explain your problem."
