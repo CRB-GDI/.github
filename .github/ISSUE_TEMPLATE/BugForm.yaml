@@ -44,11 +44,11 @@ body:
     attributes:
       label: "What platform are you testing?"
       options:
-        - "Unity Editor"
-        - "WebGL build deployed on GitHub pages"
-        - "Windows build downloaded"
-        - "WebGL build & run locally from Unity"
-        - "Windows build & run locally from Unity"
+        - Unity Editor
+        - WebGL build deployed on GitHub pages
+        - Windows build downloaded
+        - WebGL build & run locally from Unity
+        - Windows build & run locally from Unity
 
   - type: textarea
     id: device
