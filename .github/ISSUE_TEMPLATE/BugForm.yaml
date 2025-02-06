@@ -1,4 +1,4 @@
-name: "Bug Report (form)"
+name: "Bug report (form)"
 description: "Report the bugs you find so we can continue to improve!"
 title: "BUG: "
 type: Bug
@@ -24,4 +24,3 @@ body:
       value: "1. Do this. ... 
       2. Then do that. ... 
       3. Then do the other."
-      render: markdown
