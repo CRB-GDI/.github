@@ -52,7 +52,7 @@ body:
   ######################################################################
   # SOME EXAMPLES:
 
-  # CHECKBOX:
+  # CHECKBOX
   - type: checkboxes
     id: checkboxes
     attributes:
