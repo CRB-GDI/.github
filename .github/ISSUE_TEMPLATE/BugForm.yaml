@@ -44,8 +44,9 @@ body:
   - type: textarea
     id: deviceDetails
     attributes:
-      label: "Please provide mroe detailes about your device"
-      value: "* Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook] \n * OS and version [e.g. Windows 11, iOS 12, Android 15] \n * Browser [ e.g. Chrome, Edge, etc] * Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]
+      label: "Please provide more details about your device"
+      description: "Having more details abour your device will help us troubleshoot."
+      value: "* Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook] \n * OS and version [e.g. Windows 11, iOS 12, Android 15] \n * Browser [ e.g. Chrome, Edge, etc] * Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]"
 
   - type: markdown
     id: screenshots
