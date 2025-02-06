@@ -1,4 +1,4 @@
-name: "Bug Report"
+name: "Bug Report (form)"
 description: "Report the bugs you find so we can continue to improve!"
 title: "BUG: "
 type: Bug
@@ -21,5 +21,7 @@ body:
     attributes:
       label: "How to reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior."
-      value: "1. Do this. ... 2. Then do that. ... 3. Then do the other."
+      value: "1. Do this. ... 
+      2. Then do that. ... 
+      3. Then do the other."
       render: markdown
