@@ -27,9 +27,9 @@ body:
         2. Range enemy attack made contact.
         3. Health UI remained at 10.
       value: |
-        1. Do this.
+        "1. Do this.
         2. Then do that.
-        3. Then do the other.
+        3. Then do the other."
       render: markdown
 
   - type: textarea
@@ -40,7 +40,7 @@ body:
       placeholder: "Expected player's health to display as 9 after the hit"
       
   - type: dropdown
-    id: platform
+    id: platfrm
     attributes:
       label: "What platform are you testing?"
       options:
