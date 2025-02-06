@@ -50,5 +50,5 @@ body:
 
   - type: markdown
     id: screenshots
-    attributes
+    attributes:
       value: "If applicable, attach screenshots or video clips below to help explain your problem."
