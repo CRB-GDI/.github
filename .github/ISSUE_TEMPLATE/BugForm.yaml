@@ -21,7 +21,4 @@ body:
     attributes:
       label: "How to reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior."
-      value: >
-      1 Do this  
-      2 Then do that 
-      3 Then do the other
+      value: "1. Do this \n 2. Then do that \n 3. Then do the other"
