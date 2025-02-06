@@ -51,4 +51,5 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      value: "If applicable, attach screenshots or video clips below to help explain your problem."
+      label: "If applicable, attach screenshots or video clips below to help explain your problem.  Provide context for each attachement"
+      placeholder: "Ex. See attached screenshots of before and after"
