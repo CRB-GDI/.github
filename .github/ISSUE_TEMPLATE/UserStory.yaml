@@ -16,14 +16,29 @@ body:
       description: "Provide a brief title for this user story"
       placeholder: "ex. Player Health UI"
             
-  - type: input
-    id: userType
+  - type: dropdown
+    id: userSelection
     attributes:
       label: "As a..."
-      description: "Provide the WHO, what type of user or persona?"
+      options:
+        - "player"
+        - "expert player"
+        - "beginner player"
+        - "enemy character"
+        - "WebGL player"
+        - "Windows player"
+        - "Other not listed (enter below)"
+      validations:
+        required: true
+        
+  - type: input
+    id: freeformUser
+    attributes:
+      label: "Other user/persona type (optional)"
+      description: "Must provide player/persona here if you selected Other not listed above."
       placeholder: "ex. player" 
     validations:
-      required: true
+      required: false
 
   - type: input
     id: what
