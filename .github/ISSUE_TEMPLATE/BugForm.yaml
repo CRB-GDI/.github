@@ -46,7 +46,7 @@ body:
     attributes:
       label: "Please provide more details about your device"
       description: "Having more details abour your device will help us troubleshoot."
-      value: "- Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook] \n - OS and version [e.g. Windows 11, iOS 12, Android 15] \n - Browser [ e.g. Chrome, Edge, etc] * Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]"
+      value: "Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook]:  \n\n OS and version [e.g. Windows 11, iOS 12, Android 15]:  \n\n - Browser [ e.g. Chrome, Edge, etc] \n\n Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]: \n\n"
 
   - type: markdown
     id: screenshots
