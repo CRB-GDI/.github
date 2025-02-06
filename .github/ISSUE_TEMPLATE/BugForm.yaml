@@ -1,6 +1,79 @@
 name: "Bug Report"
 description: "Report bugs you've found here so we can continue to improve!"
-title: "TO DO: "
+title: "BUG: "
 type: Bug
 projects: ["CRB-GDI/42"]
 
+body:
+  - type: markdown
+    attributes:
+      value: "Provide the bug details below."
+  
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What happened?"
+      description: "A clear and concise description of what the bug is."
+      placeholder: "ex. Player health is not reducing when taking damage"
+
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: "How to reproduce the issue?"
+      description: "Provide the steps to reproduce the behavior "
+      placeholder: |
+        ## Steps
+        1. From level 1 encountered the range enemy. I had health of 10
+        2. Range enemy attack made contact.
+        3. Health UI remained at 10.
+      value: |
+        1. Do this.
+        2. Then do that.
+        3. Then do the other.
+      render: markdown
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: "What did you expect to happen?"
+      description: "A clear and concise description of what you expected to happen"
+      placeholder: "Expected player's health to display as 9 after the hit"
+      
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "What platform are you testing?"
+      options:
+        - "Unity Editor"
+        - "WebGL build deployed on GitHub pages"
+        - "Windows build downloaded"
+        - "WebGL build & run locally from Unity"
+        - "Windows build & run locally from Unity"
+    validations:
+      required: true
+
+  - type: textarea
+    id: device
+    attributes:
+      label: "Testing Device"
+      description: 
+      options:
+        - "Desktop"
+        - "Laptop"
+        - "Smartphone"
+
+  - type: textarea
+    id: deviceDetails
+    attributes: 
+      label: "Please provide more details about your device"
+      placeholder: |
+        * Device model (e.g. iPhone6
+        * OS and version [ e.g. Windows11]
+        * Browser [e.g. Chrome, safari, Firefox, etc]
+        * Version (of the broswer) 
+
+  - type: markdown
+    attributes:
+      value: "If applicable, attach screenshots, or video recordings to help explain your problem."
+        
+        
