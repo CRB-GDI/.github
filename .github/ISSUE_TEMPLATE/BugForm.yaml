@@ -21,8 +21,4 @@ body:
     attributes:
       label: "How to reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior."
-      value: |
-       Do this.
-       Then do that
-       Then do the other
-     render: markdown
+      render: markdown
