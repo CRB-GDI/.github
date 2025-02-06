@@ -33,7 +33,7 @@ body:
     id: freeformUser
     attributes:
       label: "Other user/persona type (optional)"
-      description: "Must provide player/persona here if you selected Other not listed above."
+      description: "Must provide player/persona here if you selected **Other not listed** above."
       placeholder: "ex. player" 
     validations:
       required: false
