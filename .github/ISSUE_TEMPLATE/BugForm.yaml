@@ -52,9 +52,8 @@ body:
   ######################################################################
   # SOME EXAMPLES:
 
-  # CHECKBOX
   - type: checkboxes
-    id: checkboxes
+    id: cbox
     attributes:
       label: What kinds of M&Ms do you like?
       description: You may select more than one.
