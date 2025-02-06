@@ -7,12 +7,12 @@ projects: ["CRB-GDI/42"]
 body:
   - type: markdown
     attributes:
-      value: "Provide the user story details below."
+      value: "## Provide the user story details below."
   
   - type: input
     id: storyName
     attributes:
-      label: "## Story Title"
+      label: "Story Title"
       description: "Provide a brief title for this user story"
       placeholder: "ex. Player Health UI"
             
