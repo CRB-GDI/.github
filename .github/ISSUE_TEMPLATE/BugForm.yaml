@@ -14,7 +14,7 @@ body:
     attributes:
       label: "How did you test?"
       options:
-        - "Unity Editor native"
+        - "Unity Editor"
         - "WebGL build & run from Unity Editor"
         - "Windows build & run from Unity Editor"
         - "WebGL build hosted in GitHub"
