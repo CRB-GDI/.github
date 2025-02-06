@@ -22,4 +22,4 @@ body:
       label: "How to reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior."
       placeholder: "1. From level 1 encountered the range enemy.  UI health showed 10 \n 2. Range enemy attack made contact with player. \n 3. Health UI still displayed 10."
-      value: "1. Do this \n 2. Then do that \n 3. Then do the other"
+#      value: "1. Do this \n 2. Then do that \n 3. Then do the other"
