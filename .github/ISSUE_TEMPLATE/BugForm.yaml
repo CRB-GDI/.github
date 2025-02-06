@@ -21,7 +21,7 @@ body:
     attributes:
       label: "How can we reproduce the issue?"
       description: "Provide detailed steps to reproduce the behavior"
-      placeholder: |
+      placeholder: 
       "## Steps
       1 In level 1 I encountered the red range enemy by the first obstacle.  UI displayed health of 10
       2 Range enemy attack made contact with the player
