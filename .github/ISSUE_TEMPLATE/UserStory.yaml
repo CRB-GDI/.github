@@ -28,8 +28,6 @@ body:
         - "WebGL player"
         - "Windows player"
         - "Other not listed (enter below)"
-      validations:
-        required: true
         
   - type: input
     id: freeformUser
