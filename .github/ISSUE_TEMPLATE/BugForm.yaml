@@ -1,0 +1,6 @@
+name: "Bug Report"
+description: "Report bugs you've found here so we can continue to improve!"
+title: "TO DO: "
+type: Bug
+projects: ["CRB-GDI/42"]
+
