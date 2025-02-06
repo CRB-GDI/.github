@@ -14,14 +14,14 @@ body:
     attributes:
       label: "Story Title "
       description: "Provide a brief title for this user story"
-      placeholder: "ex. "
+      placeholder: "ex. Player Health UI"
             
   - type: input
     id: userType
     attributes:
       label: "As a..."
-      description: "Provide the WHO, what type of user?"
-      placeholder: "ex. mobile app user" 
+      description: "Provide the WHO, what type of user or persona?"
+      placeholder: "ex. player" 
     validations:
       required: true
 
@@ -30,14 +30,14 @@ body:
     attributes:
       label: "I want to..."
       description: "Complete the phrase to describe what the user will see without getting bogged down in implementation details"
-      placeholder: "ex. save all my data to the cloud"
+      placeholder: "ex. be able to see my health status at all times"
 
   - type: input
     id: why
     attributes:
       label: "So I can..."
       description: "Complete the phrase explaining why this is important to the user"
-      placeholder: "ex. access it from another device"
+      placeholder: "ex. know if I need to heal before I battle the next enemy"
 
   - type: markdown
     attributes:
@@ -46,10 +46,10 @@ body:
     attributes:
       label: "When I … (action)"
       description: "Provide the test scenario, user behavior"
-      placeholder: "ex. "
+      placeholder: "ex. am playing in the level and take a hit"
       
   - type: input
     attributes:
       label: "This happens … (outcome)"
       description: "Provide the expected result or outcome when that scenario executes or the user does the behavior"
-      placeholder: "ex. "
+      placeholder: "ex. the health indicator is decreased"
