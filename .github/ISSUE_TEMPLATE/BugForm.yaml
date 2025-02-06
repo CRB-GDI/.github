@@ -9,6 +9,24 @@ body:
     attributes:
       value: "## Provide the bug details below"
 
+  - type: dropdown
+    id: howTested
+    attributes:
+      label: "How did you test?"
+      options:
+        - "Unity Editor native"
+        - "WebGL build & run from Unity Editor"
+        - "Windows build & run from Unity Editor"
+        - "WebGL build hosted in GitHub"
+        - "Windows build downloaded from GitHub"
+  
+  - type: textarea
+    id: versionTested
+    attributes:
+      label: "What version were you testing?"
+      description: "Provide either the branch and commit/pull request # OR the build version info that is applicable. Remove the ones that don't apply."
+      value: "Unity Editor - Branch name:               PR #:  \n WebGL Build - v##.##.##  \n Windows Build - v##.##.##"
+      
   - type: textarea
     id: what-happened
     attributes:
@@ -30,7 +48,13 @@ body:
       label: "What did you expect to happen?"
       description: "Provide a clear and concise description of what you expected to happen."
       placeholder: "Expected player's health to display as 9 after the hit."
-
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "If applicable, attach screenshots or video clips below to help explain your problem.  Provide context for each attachement"
+      placeholder: "Ex. See attached screenshots of before and after"
+      
   - type: dropdown
     id: device
     attributes:
@@ -47,9 +71,3 @@ body:
       label: "Please provide more details about your device"
       description: "Having more details abour your device will help us troubleshoot."
       value: "Device model [eg. iPhone13, Samsung Galaxy 7, Alienware, Chromebook]:  \n\n OS and version [e.g. Windows 11, iOS 12, Android 15]:  \n\n Browser [e.g. Chrome, Edge, etc] \n\n Version [e.g. 134.0.6998.3, 131.0.2903.86, etc]: \n\n"
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: "If applicable, attach screenshots or video clips below to help explain your problem.  Provide context for each attachement"
-      placeholder: "Ex. See attached screenshots of before and after"
