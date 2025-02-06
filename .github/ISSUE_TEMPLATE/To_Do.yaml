@@ -2,7 +2,7 @@ name: "Task Item"
 description: "Add an artist or programmer's task to the project."
 title: "TO DO: "
 type: Task
-projects: ["https://github.com/orgs/CRB-GDI/projects/42"]
+projects: ["CRB-GDI/42"]
 
 body:
   - type: markdown
