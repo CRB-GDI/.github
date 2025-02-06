@@ -49,8 +49,6 @@ body:
         - "Windows build downloaded"
         - "WebGL build & run locally from Unity"
         - "Windows build & run locally from Unity"
-    validations:
-      required: true
 
   - type: textarea
     id: device
