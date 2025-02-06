@@ -12,7 +12,7 @@ body:
   - type: input
     id: storyName
     attributes:
-      label: "Story Title "
+      label: "# Story Title "
       description: "Provide a brief title for this user story"
       placeholder: "ex. Player Health UI"
             
@@ -41,7 +41,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "Validation test (optional)"
+      value: "## Validation test (optional)"
   - type: input
     attributes:
       label: "When I … (action)"
